@@ -1,0 +1,8 @@
+Description
+
+Python scripts are invoked kind of like programs in the Terminal... Can you run https://mercury.picoctf.net/static/8e33ede04d02f3765b8c6a6e24d72733/ende.py using this password: https://mercury.picoctf.net/static/8e33ede04d02f3765b8c6a6e24d72733/pw.txt to get this file decryted, https://mercury.picoctf.net/static/8e33ede04d02f3765b8c6a6e24d72733/flag.txt.en?
+
+Solution: 
+
+python3 ende.py -d flag.txt.en
+password: aa821c16aa821c16aa821c16aa821c16

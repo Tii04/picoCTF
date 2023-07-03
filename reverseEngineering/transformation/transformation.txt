@@ -1,0 +1,23 @@
+Description
+
+    I wonder what this really is... enc ''.join([chr((ord(flag[i]) << 8) + ord(flag[i + 1])) for i in range(0, len(flag), 2)])
+
+Solution:
+
+    We needed to decode the text in enc (灩捯䍔䙻ㄶ形楴獟楮獴㌴摟潦弸弰㑣〷㘰摽)
+
+    To do that we created a python loop that converted the text into decimals, then we converted them into hex numbers.
+
+    Here's how:
+    
+        >>> enc = open('enc').read()
+        >>> enc                                         //tested to see if file opens
+        >>> 灩捯䍔䙻ㄶ形楴獟楮獴㌴摟潦弸弰㑣〷㘰摽
+        >>> hex(ord(enc[0]))                            //converted '灩' into decimal form (28777), then from decimal to hex (0x7069)
+        >>> 0x7069
+        >>> for i in enc:
+        ...     print(hex(ord(i)).lstrip('0x'), end='') //created a loop to print each character in hex without '0x'
+        ...
+        >>> 7069636f4354467b31365f626974735f696e73743334645f6f665f385f30346330373630647d // we then used an online converter for hex to ascii
+
+

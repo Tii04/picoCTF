@@ -1,0 +1,11 @@
+Description
+
+Files can always be changed in a secret way. Can you find the flag? cat.jpg (https://mercury.picoctf.net/static/b4d62f6e431dc8e563309ea8c33a06b3/cat.jpg)
+
+Solution:
+
+Type command: exiftool cat.jpg
+
+look for license and copy that value.
+
+echo that value into base64 with decode option (echo "" | base64 -d)
