@@ -12,12 +12,12 @@
 <h3>Topics explored</h3>
 
 <ul>
-    <li>General Skills</li>
-    <li>Binary Exploitation</li>
-    <li>Web Exploitatioin</li>
-    <li>Reverse Engineering</li>
-    <li>Cryptography</li>
-    <li>Forensics</li>
+    <li><a href="https://github.com/Tii04/picoCTF/tree/main/generalSkills">General Skills</a></li>
+    <li><a href="https://github.com/Tii04/picoCTF/tree/main/binaryExploitation">Binary Exploitation</a></li>
+    <li><a href="https://github.com/Tii04/picoCTF/tree/main/webExploitation">Web Exploitatioin</a></li>
+    <li><a href="https://github.com/Tii04/picoCTF/tree/main/reverseEngineering">Reverse Engineering</a></li>
+    <li><a href="https://github.com/Tii04/picoCTF/tree/main/cryptography">Cryptography</a></li>
+    <li><a href="https://github.com/Tii04/picoCTF/tree/main/forensics">Forensics</a></li>
 </ul>
 
 
