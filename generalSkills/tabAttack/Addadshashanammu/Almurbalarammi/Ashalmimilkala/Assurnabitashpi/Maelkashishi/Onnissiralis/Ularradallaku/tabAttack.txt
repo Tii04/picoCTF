@@ -1,0 +1,13 @@
+Description
+
+    Using tabcomplete in the Terminal will add years to your life, esp.
+    when dealing with long rambling directory structures and filenames:
+    Addadshashanammu.zip (https://mercury.picoctf.net/static/659efd595171e4c40378be6a2e9b7298/Addadshashanammu.zip)
+
+Solution:
+
+    We first traverse through the different folders that are present,
+    then we'll finally get to a file named fang-of-haynekhtnamet,
+    once we get to that file check execute permissions and then change
+    it to be executable, after that execute what needs to be executed to 
+    receive flag.
