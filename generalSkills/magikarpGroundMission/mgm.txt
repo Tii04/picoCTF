@@ -1,0 +1,14 @@
+Description
+
+    Do you know how to move between directories and read files in the shell? Start the container,
+    `ssh` to it, and then `ls` once connected to begin.
+    Login via `ssh` as `ctf-player` with the password, `6d448c9c`.
+
+    SSH: ssh ctf-player@venus.picoctf.net -p 49431
+
+Solution:
+
+    first we ssh into the secure shell by typing in all of what has been provided.
+    Then we move around getting the different parts of the flags and the instructions by
+    looking at the different .txt files. Once we have completed that we will then be able to see 
+    how the flag comes together. 
