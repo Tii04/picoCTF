@@ -1,0 +1,18 @@
+Description
+
+    What is 0x3D (base 16) in decimal (base 10)?
+
+Solution:
+
+    So in order to make the converstion from hex to decimal we
+    multiply the last number by 1 and then the following numbers all
+    get multiplied by 16 and the number of 16's increases each position until there are no numbers.
+
+    So in our example we multiplied D(13) by 1 and 3 (after 0x) by 16.
+
+    The result we add:
+
+        13 x 01 = 13
+        03 x 16 = 48
+        ----------- 
+               = 61
