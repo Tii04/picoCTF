@@ -1,0 +1,12 @@
+Description
+
+    Can you find the flag in file? (https://jupiter.challenges.picoctf.org/static/315d3325dc668ab7f1af9194f2de7e7a/file)
+    This would be really tedious to look through manually,
+    something tells me there is a better way.
+
+Solution
+
+	Use the grep command to extract the desired data out of the file.
+	Include the command grep, then type part of the desired data, as well as the file that you're extracting from. 
+
+	command: grep picoCTF {file_name}
